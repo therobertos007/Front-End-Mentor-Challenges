@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #b8ceff;
+  background-image: url("./img/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  background-color: white;
+  height: 80%;
+  width: 500px;
+  border-radius: 5%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.up {
+  height: 30%;
+  display: flex;
+}
+
+.hero-img {
+  width: 100%;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
+
+.down {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70%;
+  padding: 5%;
+  /* width: 80%; */
+}
+
+.order-header {
+  /* margin-top: 0px; */
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  color: #2f2f2f;
+}
+
+.about-p {
+  margin-top: 20px;
+  width: 70%;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: #93979b;
+}
+
+.plan-box {
+  background-color: #f3f6fd;
+  margin-top: 50px;
+  border-radius: 20px;
+  width: 80%;
+  height: 90px;
+
+  display: flex;
+}
