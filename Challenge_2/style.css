@@ -72,4 +72,31 @@ body {
   height: 90px;
 
   display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.plan-type {
+  margin-left: -60px;
+  line-height: 1.5em;
+  color: #4d4d4d;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+
+.icon-music {
+  height: 60%;
+}
+
+.change {
+  color: rgb(131, 87, 214);
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+  text-decoration: underline;
+}
+
+#price {
+  color: #93979b;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
 }
