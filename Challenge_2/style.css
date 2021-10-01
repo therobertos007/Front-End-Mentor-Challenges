@@ -121,3 +121,20 @@ body {
   font-weight: 900;
   margin-top: 60px;
 }
+
+/* HOVERS */
+
+.change:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.proceed-box:hover {
+  background-color: #6060cf;
+  cursor: pointer;
+}
+
+.cancel:hover {
+  color: black;
+  cursor: pointer;
+}
